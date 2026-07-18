@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{535a6107-e1c7-4b97-981b-ab991b5a24d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Memory">
+      <UniqueIdentifier>{8f8b5746-e6c6-4123-9f22-648fb5997294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lib">
+      <UniqueIdentifier>{1b01733b-bd0a-42e0-b7b0-df776328e0a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\KeyMouseCallback">
+      <UniqueIdentifier>{92f0702a-c2a5-4a7c-accb-8ce205a26cda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Wsk">
+      <UniqueIdentifier>{0e6da0b4-9eae-4b32-b0fb-69af155bc46c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Driver.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cr3Decryp.hpp">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Wsk.hpp">
+      <Filter>Header Files\Wsk</Filter>
+    </ClInclude>
+    <ClInclude Include="Virtual.hpp">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomFunction.hpp">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="kli.hpp">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureCode.hpp">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="GetMoudle.hpp">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory_Tools.hpp">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardMouse.hpp">
+      <Filter>Header Files\KeyMouseCallback</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
